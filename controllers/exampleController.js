@@ -74,7 +74,7 @@ function store(req, res) {
         image: req.body.image,
         tags: req.body.tags,
     }//abbiamo creato il nuovo post mettendo nell'oggetto tutti i dati necessari
-    post.push(newPost); //pusho dentro l'array post il nuovo post creato
+    examples.push(newPost); //pusho dentro l'array post il nuovo post creato
     res.status(201).json(newPost);//mando in risposta lo status 201
 }
 
